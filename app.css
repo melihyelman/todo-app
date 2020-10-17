@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+body {
+    padding: 50px 25px 50px 25px;
+    background-color: #e7e7e7;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 15px 32px -12px #74777c;
+}
+
+.todo-head {
+    width: 100%;
+    text-align: center;
+}
+.todo-head h1 {
+    font-size: 52px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 50px;
+}
+.todo-head input {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #CED4DA;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.todo-head button {
+    height: 40px;
+    padding: 5px 10px;
+    margin-left: 15px;
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.todo-body {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.todo-body h4{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.todo-body #todo-list {
+    margin: 0 auto;
+    width: 60%;
+}
+.todo-body #todo-filter {
+    width: 69%;
+    height: 40px;
+    border: 1px solid #CED4DA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    margin: 35px auto;
+}
+.todo-body #todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border: 1px solid #CED4DA;
+    padding: 5px 5px 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    /* transition: 400ms background-color; */
+}
+.text {
+    width: 100%;
+    height: 100%;
+}
+.item {
+    background-color: #DC3545;
+}
+.item-checked  {
+    background-color: #5cb85c;
+}
+.todo-body #todo-list li .remove-task {
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
